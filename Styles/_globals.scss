@@ -87,10 +87,10 @@ section {
                font-family:  sans-serif;
                font-weight: 100;
              }
-             textarea{
-               padding: 10px;
-               width: 287px;
-             }
+            #input{
+                width: 50%;
+                height: 10%;
+            }
              #button-1{
                 position: absolute;
                width: 183px;
@@ -237,8 +237,10 @@ section {
         #div-4{
            display: flex;
            flex-direction: column;
-                #textarea-1{
-                    padding: 15px;
+                #input2{
+                    // padding: 15px;
+                    width: 400px;
+                    height: 40px;
                 }
                 #submit-button{
                     width: 179px;
@@ -349,11 +351,10 @@ section {
            
    
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 650px)
 {
    body{
-       width: 500px;
-       overflow-x: hidden;
+       width: 100%;
    }
 
     // company logo

@@ -96,9 +96,9 @@ section #note1 p {
   font-weight: 100;
 }
 
-section #note1 textarea {
-  padding: 10px;
-  width: 287px;
+section #note1 #input {
+  width: 50%;
+  height: 10%;
 }
 
 section #note1 #button-1 {
@@ -252,8 +252,9 @@ section #note1 #button-1:hover {
           flex-direction: column;
 }
 
-#maindiv-2 #div-4 #textarea-1 {
-  padding: 15px;
+#maindiv-2 #div-4 #input2 {
+  width: 400px;
+  height: 40px;
 }
 
 #maindiv-2 #div-4 #submit-button {
@@ -371,10 +372,9 @@ section #note1 #button-1:hover {
   padding-right: 70px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   body {
-    width: 500px;
-    overflow-x: hidden;
+    width: 100%;
   }
   #companymain-logo {
     margin: 26px 0 0 24px;
