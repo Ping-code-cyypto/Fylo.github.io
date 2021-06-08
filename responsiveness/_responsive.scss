@@ -1,0 +1,343 @@
+@media screen and (max-width: 650px)
+{
+body{
+    width: 100%;
+        #header{ 
+            .imgcontainer{
+                margin: 0;
+                margin-top: 5px;
+                img{
+                    width: 100px;
+                }
+            }
+            #container{ 
+                margin: 0;
+                margin-right: -40px;
+                .nav1{
+                    margin: 30px 10px 30px 10px;
+                }
+                .nav2{
+                    margin: 30px 10px 30px 10px;
+                }
+                .nav3{
+                    margin: 30px 10px 30px 10px;
+                }
+            }
+        }
+
+        #section1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background-color: blueviolet;
+                #image{
+                    width: 100%;
+                    height: 100%;
+                    margin: auto;
+                }
+                #note1{
+                    order: 2;
+                    text-align: center;
+                    width: 460px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    h1{
+                        text-align: center;
+                        margin: 0 30px 0 30px;
+                    } p{
+                        text-align: center;
+                        margin: 31px 67px 0 67px;
+                        
+                    }
+                    #input{
+                        width: 75%;
+                        height: 40px;
+                    }
+                    #email{
+                        text-align: start;
+                        margin: 22px 95px 0 89px;
+                        border-radius: 5px;
+                        
+                    
+                        
+                    }
+                    button{
+                        position: absolute;
+                        top: 900px;
+                        left: 0;
+                        width: 400px;
+                    }
+    
+                }
+              
+        }    
+          
+           
+
+}
+
+    
+    
+    // navigation bar
+       
+
+   
+
+   
+       
+        
+
+    #flex-cont{
+        background-color: #f4f4fc;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 170px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0 ;
+        // overflow-x: hidden;
+         
+         border-radius: unset;
+         width: 500px;
+       
+        .item-1{
+            margin: auto;
+            width: 500px;
+        }
+
+        .item-2{
+            margin: 50px 10px 65px 10px;
+            width: 370px;
+            height: 276px;
+        }  
+
+        h1{
+           
+            width: 340px;
+            margin: auto;
+            margin-bottom: 28px;
+            font-family: 'Raleway';
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        p{
+            line-height: 21px;
+            width: 400px;
+            margin: auto;
+            text-align: left;
+            font-family: sans-serif;
+        }
+       
+        .parano2{
+            margin-top: 19px;
+            line-height: 21px;
+        }
+
+        .smallnote{
+            text-align: center;
+            margin-top: 24px;
+            text-decoration: underline;
+           text-underline-offset: 3px;
+           color: $modcyan;
+        }
+        #kyle-info{
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            margin-top: 38px;
+            box-shadow: 0 0 15px -2px   black;
+           
+                .doubleq{
+                    margin: 26px 0 0 26px;
+                }
+                .info{
+                    
+                   
+                   width: 315px;
+                   margin : auto;
+                   margin: 16px 0 0 26px;
+                   line-height: 26px;
+                } 
+               
+                .avatar{
+                    border-radius: 50%;
+                    margin: 19px 0 26px 26px;
+                    width: 58px;
+                    height: 58px;
+                }
+               .name{
+                  margin: -78px 0 0 97px;
+                    #kylename{
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                    }
+                    #post{
+                        font-family: sans-serif;
+                        font-size: 15px;
+                    }
+               }
+            }
+     }
+
+     #maindiv-2{
+         width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $desatblue;
+        flex-direction: column;
+        height: 300px;
+        text-align: center;
+        #div-3{
+            margin-left: 0;
+            #heading-1{
+                padding: 20px;
+                margin-top: 33px;
+               font-weight: unset;
+               font-size: 25px;
+             margin: auto;
+            }
+
+            .paragraph-2{
+                font-family: sans-serif;
+                width: 370px;
+                margin: auto;
+                line-height: 21px;
+            }
+        }
+            #div-4{
+               display: flex;
+               flex-direction: column; 
+               align-items: center;
+               margin-left: 0;
+                    #textarea-1{
+                        padding: 15px;
+                        margin: 19px 0 10px -16px;
+                        width: 350px;
+                    }
+                    #submit-button{
+                        width: 350px;
+                        margin: 3px 0 10px -16px;
+                        color: white;
+                        background-color: $brightblue;
+                        border: none;
+                        border-radius: 3px;
+                        box-shadow:  2px 2px 2px rgba(6, 7, 7, 0.278);
+                        cursor: pointer;
+                        padding: 13px;
+                        &:hover{
+                             background-color: $royalblue;
+                         }
+                    }
+            }
+
+       
+         } 
+   
+         .footer-2{
+            display: flex;
+            flex-direction: column;
+            color: white;
+             font-family: sans-serif;
+             background-color: $darkblue;
+                .footer-div1{
+                   padding: 20px;
+                    
+                    .company-logo{
+                        width: 180;
+                        height: 55px;
+                        margin: 65px 0 0 37px;
+                    }
+                    .call-icon{
+                        height: 26px;
+                        width: 26px;
+                        margin: 35px 0 0 37px;
+                    }
+                    .contact-num{
+                        font-family: sans-serif;
+                        margin: -27px 0 0 84px ;
+                        
+                    }
+                    .mail-icon{
+                        height: 26px;
+                        width: 26px;
+                        margin: 25px 0 0 37px;
+                    }
+                    .company-mail{
+                        font-family: sans-serif;
+                        margin: -27px 0 0 84px ;
+                        
+                    }
+                }
+                .ul-1{
+                    
+                   
+                    margin: 51px 0 0 0;
+                    padding: 0 0 0 59px;
+                   list-style-type: none;
+                        li{width: fit-content;
+                            font-family: sans-serif;
+                            cursor: pointer;
+                            &:hover{
+                                color: $desatblue;
+                            }
+                        }
+                }
+                .ul-2{
+                  
+                    font-family: sans-serif;
+                    margin: 51px 0 0 0;
+                    padding: 0 0 0 59px;
+                   list-style-type: none;
+                        li{width: fit-content;
+                            font-family: sans-serif;
+                            cursor: pointer;
+                            &:hover{
+                                color: $desatblue;
+                            }
+                        }
+                }
+                .footer-div2{
+                    
+                    display: flex;
+                    
+                     justify-content: center;
+                     flex-direction: row;
+                     align-items: center;
+                     padding: 53px 38px 53px 38px;
+                     padding-right: 70px;
+                }
+        }
+
+   
+             
+     
+    
+
+
+
+
+
+
+
+
+
+}   
+
+
+
+    
+
+   
+    
+        
+
+
+       
+  
+
+
+
+             
