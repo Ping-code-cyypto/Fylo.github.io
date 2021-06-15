@@ -145,6 +145,7 @@ header{
                         width: 90%;
                     }
                    .demo{
+                       width: fit-content;
                        &:hover{
                            color: $modcyan;
                            transition-duration: 0.4s;
@@ -253,7 +254,20 @@ header{
         }
 }
 
- 
+ footer{
+     #maindiv-2{
+
+         #div-3{
+             width: 38%;
+         }
+         #div-4{
+                #submit-button{
+                    margin: auto;
+                    margin-top:  20px;
+                }
+         }
+     }
+ }
 
           
                 
@@ -263,7 +277,7 @@ header{
      justify-content: space-around;
      color: white;
      background-color: $darkblue;
-   
+     padding-bottom: 30px;
     
      
 
